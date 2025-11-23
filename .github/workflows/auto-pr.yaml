@@ -1,0 +1,55 @@
+name: Auto PR for game updates
+
+on:
+  push:
+    branches:
+      - "game-*_*"
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Create or update PR for this branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+
+          # Derive a sensible PR title/body from the latest commit message
+          LAST_COMMIT_MSG="$(git log -1 --pretty=%B)"
+          PR_TITLE="$LAST_COMMIT_MSG"
+          PR_BODY="This PR was automatically created for: $LAST_COMMIT_MSG
+
+          - Source branch: \`$BRANCH_NAME\`
+          - Trigger: push to \`$BRANCH_NAME\`
+          "
+
+          # Check if a PR already exists for this branch
+          EXISTING_PR=$(gh pr list \
+            --head "$BRANCH_NAME" \
+            --state open \
+            --json number \
+            --jq '.[0].number // empty')
+
+          if [ -n "$EXISTING_PR" ]; then
+            echo "PR #$EXISTING_PR already exists for branch $BRANCH_NAME; nothing to do."
+            # Add the 'auto-merge-delayed' label if missing
+            gh pr edit "$EXISTING_PR" --add-label "auto-merge-delayed"
+          else
+            echo "Creating new PR for branch $BRANCH_NAME..."
+            gh pr create \
+              --base master \
+              --head "$BRANCH_NAME" \
+              --title "$PR_TITLE" \
+              --body "$PR_BODY" \
+              --label "auto-merge-delayed"
+          fi
