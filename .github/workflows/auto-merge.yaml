@@ -14,7 +14,7 @@ jobs:
       pull-requests: write
 
     env:
-      DELAY_HOURS: "23"
+      DELAY_HOURS: "13"
 
     steps:
       - name: Auto-merge and release
