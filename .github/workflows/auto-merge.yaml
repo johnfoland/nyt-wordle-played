@@ -1,0 +1,107 @@
+name: Auto-merge game result PRs after delay
+
+on:
+  schedule:
+    - cron: "*/45 * * * *"
+  workflow_dispatch:
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    env:
+      DELAY_HOURS: "23"
+
+    steps:
+      - name: Auto-merge and release
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const delayHours = parseFloat(process.env.DELAY_HOURS || "24");
+            const now = new Date();
+
+            const { data: prs } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              sort: "created",
+              direction: "asc",
+              per_page: 100,
+            });
+
+            for (const pr of prs) {
+              // Only PRs with the auto-merge-delayed label
+              const hasLabel = pr.labels.some(
+                (l) => l.name === "auto-merge-delayed"
+              );
+              if (!hasLabel) continue;
+
+              // Only game branches
+              if (!pr.head.ref.startsWith("game-")) continue;
+
+              // Parse game number from branch name: game-<number>_...
+              const match = pr.head.ref.match(/^game-(\d+)_/);
+              if (!match) {
+                core.info(`PR #${pr.number}: could not parse game number from branch '${pr.head.ref}', skipping.`);
+                continue;
+              }
+              const gameNumber = match[1];
+
+              const createdAt = new Date(pr.created_at);
+              const ageHours = (now - createdAt) / 36e5; // ms → hours
+
+              if (ageHours < delayHours) {
+                core.info(
+                  `PR #${pr.number} not old enough yet (${ageHours.toFixed(
+                    2
+                  )}h < ${delayHours}h)`
+                );
+                continue;
+              }
+
+              core.info(`Merging PR #${pr.number} for game #${gameNumber}...`);
+
+              // Merge PR (squash, or change to "merge"/"rebase" if you prefer)
+              const mergeResult = await github.rest.pulls.merge({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: pr.number,
+                merge_method: "squash",
+              });
+
+              const mergeSha = mergeResult.data.sha;
+              core.info(`PR #${pr.number} merged as commit ${mergeSha}.`);
+
+              const tagName = gameNumber;
+              const releaseName = `NYT Wordle Game #${gameNumber}`;
+              const releaseBody = `Result for game #${gameNumber}.\n\nMerged from PR #${pr.number}.`;
+
+              core.info(`Creating release '${releaseName}' with tag '${tagName}'...`);
+
+              try {
+                await github.rest.repos.createRelease({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  tag_name: tagName,
+                  target_commitish: mergeSha,
+                  name: releaseName,
+                  body: releaseBody,
+                  draft: false,
+                  prerelease: false,
+                });
+                core.info(`Release for game #${gameNumber} created.`);
+              } catch (error) {
+                if (error.status === 422) {
+                  // 422 often means tag/release already exists; log and continue
+                  core.warning(
+                    `Could not create release for game #${gameNumber}: ${error.message}`
+                  );
+                } else {
+                  throw error;
+                }
+              }
+            }
