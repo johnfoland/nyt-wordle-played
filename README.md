@@ -32,7 +32,7 @@ This repository uses an automated workflow to publish solutions while attempting
 
 1. **Update Trigger**: A new branch containing the latest solution is pushed to the repository (e.g., `game-1234_...`).
 2. **Auto PR**: A GitHub Action automatically creates a Pull Request for this branch.
-3. **Delayed Merge**: Another Action monitors these PRs and waits for approximately **23 hours** after creation before merging them.
+3. **Delayed Merge**: Another Action monitors these PRs and waits for approximately **13 hours** after creation before merging them.
 4. **Release**: Once merged, a GitHub Release is automatically created and tagged with the game number.
 
 This delay ensures that the solution is not immediately merged into the `master` branch, giving players time to solve the puzzle before it appears in the official history.
