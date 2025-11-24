@@ -65,12 +65,12 @@ jobs:
 
               core.info(`Merging PR #${pr.number} for game #${gameNumber}...`);
 
-              // Merge PR (squash, or change to "merge"/"rebase" if you prefer)
+              // Merge PR with merge commit
               const mergeResult = await github.rest.pulls.merge({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 pull_number: pr.number,
-                merge_method: "squash",
+                merge_method: "merge",
               });
 
               const mergeSha = mergeResult.data.sha;
