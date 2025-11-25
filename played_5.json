@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2025-11-23",
-    "played_count": 1619,
+    "last_update": "2025-11-24",
+    "played_count": 1620,
     "played": {
+        "1619": "DOUGH",
         "1618": "BUNNY",
         "1617": "THICK",
         "1616": "VOWEL",
