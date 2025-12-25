@@ -54,15 +54,15 @@ jobs:
           print(f"Synced SOLUTIONS_5.md with {len(sorted_games)} solutions")
           EOF
           
-          # Add SOLUTIONS_5.md to the existing commit (amend) to preserve original commit message
+          # Add SOLUTIONS_5.md as a new commit on top of the original
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add SOLUTIONS_5.md
           
-          # Only amend if there are changes to SOLUTIONS_5.md
+          # Only commit if there are changes to SOLUTIONS_5.md
           if ! git diff --staged --quiet; then
-            git commit --amend --no-edit
-            git push --force-with-lease
+            git commit -m "Sync SOLUTIONS_5.md"
+            git push
           fi
 
       - name: Create or update PR for this branch
@@ -72,10 +72,11 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Derive a sensible PR title/body from the latest commit message
-          LAST_COMMIT_MSG="$(git log -1 --pretty=%B)"
-          PR_TITLE="$LAST_COMMIT_MSG"
-          PR_BODY="This PR was automatically created for: $LAST_COMMIT_MSG
+          # Get the first commit message on this branch (the original game result commit)
+          # This excludes the "Sync SOLUTIONS_5.md" commit added by the workflow
+          FIRST_COMMIT_MSG="$(git log origin/master..HEAD --reverse --pretty=%B | head -n1)"
+          PR_TITLE="$FIRST_COMMIT_MSG"
+          PR_BODY="This PR was automatically created for: $FIRST_COMMIT_MSG
 
           - Source branch: \`$BRANCH_NAME\`
           - Trigger: push to \`$BRANCH_NAME\`
