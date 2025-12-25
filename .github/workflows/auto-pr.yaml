@@ -45,7 +45,7 @@ jobs:
           
           # Add each solution
           for game_num, solution in sorted_games:
-              md_content += f"**Game #{game_num}:** {solution}\n"
+              md_content += f"**Game #{game_num}:** {solution}\n\n"
           
           # Write to file
           with open('SOLUTIONS_5.md', 'w') as f:
