@@ -54,11 +54,16 @@ jobs:
           print(f"Synced SOLUTIONS_5.md with {len(sorted_games)} solutions")
           EOF
           
-          # Commit if there are changes
+          # Add SOLUTIONS_5.md to the existing commit (amend) to preserve original commit message
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add SOLUTIONS_5.md
-          git diff --staged --quiet || git commit -m "Update SOLUTIONS_5.md from played_5.json"
+          
+          # Only amend if there are changes to SOLUTIONS_5.md
+          if ! git diff --staged --quiet; then
+            git commit --amend --no-edit
+            git push --force-with-lease
+          fi
 
       - name: Create or update PR for this branch
         env:
