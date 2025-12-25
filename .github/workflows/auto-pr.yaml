@@ -17,6 +17,49 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Sync SOLUTIONS_5.md from played_5.json
+        run: |
+          python3 << 'EOF'
+          import json
+          
+          # Load the JSON data
+          with open('played_5.json', 'r') as f:
+              data = json.load(f)
+          
+          # Create markdown content
+          md_content = f"""# New York Times Wordle Solutions (5-Letter Variant)
+
+          **Last Updated:** {data['last_update']}  
+          **Total Games:** {data['played_count']}
+
+          This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
+
+          ---
+
+          ## Solutions
+
+          """
+          
+          # Sort games by number in descending order
+          sorted_games = sorted(data['played'].items(), key=lambda x: int(x[0]), reverse=True)
+          
+          # Add each solution
+          for game_num, solution in sorted_games:
+              md_content += f"**Game #{game_num}:** {solution}\n"
+          
+          # Write to file
+          with open('SOLUTIONS_5.md', 'w') as f:
+              f.write(md_content)
+          
+          print(f"Synced SOLUTIONS_5.md with {len(sorted_games)} solutions")
+          EOF
+          
+          # Commit if there are changes
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add SOLUTIONS_5.md
+          git diff --staged --quiet || git commit -m "Update SOLUTIONS_5.md from played_5.json"
+
       - name: Create or update PR for this branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
