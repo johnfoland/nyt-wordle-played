@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2025-12-25  
-**Total Games:** 1651
+**Last Updated:** 2025-12-26  
+**Total Games:** 1652
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1651:** SPEED
 
 **Game #1650:** PRISM
 
