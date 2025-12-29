@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2025-12-27  
-**Total Games:** 1653
+**Last Updated:** 2025-12-28  
+**Total Games:** 1654
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1653:** ABBOT
 
 **Game #1652:** BATCH
 
