@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-01-04  
-**Total Games:** 1661
+**Last Updated:** 2026-01-05  
+**Total Games:** 1662
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1661:** FILLY
 
 **Game #1660:** POSSE
 
