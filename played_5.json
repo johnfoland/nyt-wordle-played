@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-01-04",
-    "played_count": 1661,
+    "last_update": "2026-01-05",
+    "played_count": 1662,
     "played": {
+        "1661": "FILLY",
         "1660": "POSSE",
         "1659": "SITAR",
         "1658": "PROOF",
