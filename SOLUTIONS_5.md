@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-01-06  
-**Total Games:** 1663
+**Last Updated:** 2026-01-07  
+**Total Games:** 1664
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1663:** PECAN
 
 **Game #1662:** OOMPH
 
