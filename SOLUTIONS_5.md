@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-01-10  
-**Total Games:** 1667
+**Last Updated:** 2026-01-11  
+**Total Games:** 1668
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1667:** QUARK
 
 **Game #1666:** MANIC
 
