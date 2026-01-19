@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-01-18  
-**Total Games:** 1675
+**Last Updated:** 2026-01-19  
+**Total Games:** 1676
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1675:** WAXEN
 
 **Game #1674:** SUMAC
 
