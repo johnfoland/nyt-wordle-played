@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-01-22  
-**Total Games:** 1679
+**Last Updated:** 2026-01-23  
+**Total Games:** 1680
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1679:** BARON
 
 **Game #1678:** CLINK
 
