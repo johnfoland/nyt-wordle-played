@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-01-23",
-    "played_count": 1680,
+    "last_update": "2026-01-24",
+    "played_count": 1681,
     "played": {
+        "1680": "CLIFF",
         "1679": "BARON",
         "1678": "CLINK",
         "1677": "CUBIC",
