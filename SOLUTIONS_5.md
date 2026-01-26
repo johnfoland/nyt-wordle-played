@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-01-25  
-**Total Games:** 1682
+**Last Updated:** 2026-01-26  
+**Total Games:** 1683
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1682:** FREAK
 
 **Game #1681:** STRUT
 
