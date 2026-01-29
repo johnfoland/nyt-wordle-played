@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-01-27  
-**Total Games:** 1684
+**Last Updated:** 2026-01-28  
+**Total Games:** 1685
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1684:** CRUEL
 
 **Game #1683:** DUSKY
 
