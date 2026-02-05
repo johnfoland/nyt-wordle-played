@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-02-03  
-**Total Games:** 1691
+**Last Updated:** 2026-02-04  
+**Total Games:** 1692
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1691:** CHIDE
 
 **Game #1690:** WEIGH
 
