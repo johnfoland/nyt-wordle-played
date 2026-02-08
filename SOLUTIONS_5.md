@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-02-06  
-**Total Games:** 1694
+**Last Updated:** 2026-02-07  
+**Total Games:** 1695
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1694:** BLEAT
 
 **Game #1693:** GAVEL
 
