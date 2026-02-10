@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-02-08  
-**Total Games:** 1696
+**Last Updated:** 2026-02-09  
+**Total Games:** 1697
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1696:** CELLO
 
 **Game #1695:** EMBED
 
