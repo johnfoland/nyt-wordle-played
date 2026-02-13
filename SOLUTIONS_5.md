@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-02-11  
-**Total Games:** 1699
+**Last Updated:** 2026-02-12  
+**Total Games:** 1700
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1699:** SURGE
 
 **Game #1698:** VEGAN
 
