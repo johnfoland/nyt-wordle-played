@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-02-14  
-**Total Games:** 1702
+**Last Updated:** 2026-02-15  
+**Total Games:** 1703
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1702:** SKULL
 
 **Game #1701:** BLOOM
 
