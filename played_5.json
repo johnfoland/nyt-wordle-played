@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-02-16",
-    "played_count": 1704,
+    "last_update": "2026-02-17",
+    "played_count": 1705,
     "played": {
+        "1704": "SQUAD",
         "1703": "ROOST",
         "1702": "SKULL",
         "1701": "BLOOM",
