@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-02-17  
-**Total Games:** 1705
+**Last Updated:** 2026-02-18  
+**Total Games:** 1706
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1705:** MOGUL
 
 **Game #1704:** SQUAD
 
