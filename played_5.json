@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-02-22",
-    "played_count": 1710,
+    "last_update": "2026-02-23",
+    "played_count": 1711,
     "played": {
+        "1710": "ATTIC",
         "1709": "GUAVA",
         "1708": "AWAKE",
         "1707": "STANK",
