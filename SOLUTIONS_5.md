@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-02-22  
-**Total Games:** 1710
+**Last Updated:** 2026-02-23  
+**Total Games:** 1711
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1710:** ATTIC
 
 **Game #1709:** GUAVA
 
