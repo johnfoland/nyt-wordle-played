@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-02-27  
-**Total Games:** 1715
+**Last Updated:** 2026-02-28  
+**Total Games:** 1716
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1715:** HYDRA
 
 **Game #1714:** DIZZY
 
