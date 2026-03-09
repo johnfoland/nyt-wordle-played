@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-03-08  
-**Total Games:** 1724
+**Last Updated:** 2026-03-09  
+**Total Games:** 1725
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1724:** HASTY
 
 **Game #1723:** LOBBY
 
