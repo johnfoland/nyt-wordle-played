@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-03-11  
-**Total Games:** 1727
+**Last Updated:** 2026-03-12  
+**Total Games:** 1728
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1727:** SMELL
 
 **Game #1726:** TEDDY
 
