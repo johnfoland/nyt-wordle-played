@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-03-13  
-**Total Games:** 1729
+**Last Updated:** 2026-03-14  
+**Total Games:** 1730
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1729:** ANKLE
 
 **Game #1728:** EATEN
 
