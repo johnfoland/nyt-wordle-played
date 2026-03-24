@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-03-23  
-**Total Games:** 1739
+**Last Updated:** 2026-03-24  
+**Total Games:** 1740
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1739:** BROOD
 
 **Game #1738:** SERIF
 
