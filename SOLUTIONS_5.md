@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-03-31  
-**Total Games:** 1747
+**Last Updated:** 2026-04-01  
+**Total Games:** 1748
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1747:** FIZZY
 
 **Game #1746:** SWAMP
 
