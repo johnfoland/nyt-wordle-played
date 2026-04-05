@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-04-04  
-**Total Games:** 1751
+**Last Updated:** 2026-04-05  
+**Total Games:** 1752
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1751:** ENVOY
 
 **Game #1750:** SANDY
 
