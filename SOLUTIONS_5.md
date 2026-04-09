@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-04-07  
-**Total Games:** 1754
+**Last Updated:** 2026-04-08  
+**Total Games:** 1755
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1754:** INLET
 
 **Game #1753:** DENSE
 
