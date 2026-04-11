@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-04-10  
-**Total Games:** 1757
+**Last Updated:** 2026-04-11  
+**Total Games:** 1758
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1757:** PRUDE
 
 **Game #1756:** CAROM
 
