@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-04-19  
-**Total Games:** 1766
+**Last Updated:** 2026-04-20  
+**Total Games:** 1767
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1766:** WEAVE
 
 **Game #1765:** STAND
 
