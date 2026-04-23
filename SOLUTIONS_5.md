@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-04-21  
-**Total Games:** 1768
+**Last Updated:** 2026-04-22  
+**Total Games:** 1769
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1768:** SNORE
 
 **Game #1767:** CLUMP
 
