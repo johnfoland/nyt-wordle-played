@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-04-24  
-**Total Games:** 1771
+**Last Updated:** 2026-04-25  
+**Total Games:** 1772
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1771:** WOMEN
 
 **Game #1770:** DRUNK
 
