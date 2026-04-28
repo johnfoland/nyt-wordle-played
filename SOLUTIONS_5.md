@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-04-26  
-**Total Games:** 1773
+**Last Updated:** 2026-04-27  
+**Total Games:** 1774
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1773:** EERIE
 
 **Game #1772:** GLOSS
 
