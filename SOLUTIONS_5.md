@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-04-28  
-**Total Games:** 1775
+**Last Updated:** 2026-04-29  
+**Total Games:** 1776
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1775:** RURAL
 
 **Game #1774:** QUACK
 
