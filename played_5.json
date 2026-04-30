@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-04-29",
-    "played_count": 1776,
+    "last_update": "2026-04-30",
+    "played_count": 1777,
     "played": {
+        "1776": "CROCK",
         "1775": "RURAL",
         "1774": "QUACK",
         "1773": "EERIE",
