@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-05-01  
-**Total Games:** 1778
+**Last Updated:** 2026-05-02  
+**Total Games:** 1779
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1778:** BRING
 
 **Game #1777:** PLUME
 
