@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-05-08  
-**Total Games:** 1785
+**Last Updated:** 2026-05-09  
+**Total Games:** 1786
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1785:** SATIN
 
 **Game #1784:** UMBRA
 
