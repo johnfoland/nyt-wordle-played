@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-05-09  
-**Total Games:** 1786
+**Last Updated:** 2026-05-10  
+**Total Games:** 1787
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1786:** PARKA
 
 **Game #1785:** SATIN
 
