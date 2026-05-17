@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-05-15  
-**Total Games:** 1792
+**Last Updated:** 2026-05-16  
+**Total Games:** 1793
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1792:** MOVER
 
 **Game #1791:** CREED
 
