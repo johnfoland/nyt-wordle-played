@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-05-19  
-**Total Games:** 1796
+**Last Updated:** 2026-05-20  
+**Total Games:** 1797
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1796:** WRECK
 
 **Game #1795:** DUSTY
 
