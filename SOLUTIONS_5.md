@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-05-21  
-**Total Games:** 1798
+**Last Updated:** 2026-05-22  
+**Total Games:** 1799
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1798:** VOCAL
 
 **Game #1797:** AGREE
 
