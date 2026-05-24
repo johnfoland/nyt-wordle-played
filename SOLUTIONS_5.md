@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-05-22  
-**Total Games:** 1799
+**Last Updated:** 2026-05-23  
+**Total Games:** 1800
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1799:** CHUCK
 
 **Game #1798:** VOCAL
 
