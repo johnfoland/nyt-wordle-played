@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-05-26  
-**Total Games:** 1803
+**Last Updated:** 2026-05-27  
+**Total Games:** 1804
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1803:** STUFF
 
 **Game #1802:** COUCH
 
