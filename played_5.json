@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-05-29",
-    "played_count": 1806,
+    "last_update": "2026-05-30",
+    "played_count": 1807,
     "played": {
+        "1806": "SMILE",
         "1805": "CLANG",
         "1804": "DIVOT",
         "1803": "STUFF",
