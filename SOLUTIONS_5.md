@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-06-01  
-**Total Games:** 1809
+**Last Updated:** 2026-06-02  
+**Total Games:** 1810
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1809:** BASIS
 
 **Game #1808:** CHILI
 
