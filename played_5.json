@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-06-05",
-    "played_count": 1813,
+    "last_update": "2026-06-06",
+    "played_count": 1814,
     "played": {
+        "1813": "MORPH",
         "1812": "NOBLY",
         "1811": "ALLOY",
         "1810": "NOTCH",
