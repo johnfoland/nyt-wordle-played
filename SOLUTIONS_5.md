@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-06-06  
-**Total Games:** 1814
+**Last Updated:** 2026-06-07  
+**Total Games:** 1815
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1814:** THUMB
 
 **Game #1813:** MORPH
 
