@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-06-15  
-**Total Games:** 1823
+**Last Updated:** 2026-06-16  
+**Total Games:** 1824
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1823:** AMAZE
 
 **Game #1822:** BROIL
 
