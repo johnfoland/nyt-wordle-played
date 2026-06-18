@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-06-16",
-    "played_count": 1824,
+    "last_update": "2026-06-17",
+    "played_count": 1825,
     "played": {
+        "1824": "TOKEN",
         "1823": "AMAZE",
         "1822": "BROIL",
         "1821": "SEPIA",
