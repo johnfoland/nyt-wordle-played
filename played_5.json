@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-06-18",
-    "played_count": 1826,
+    "last_update": "2026-06-19",
+    "played_count": 1827,
     "played": {
+        "1826": "EMOJI",
         "1825": "ENTRY",
         "1824": "TOKEN",
         "1823": "AMAZE",
