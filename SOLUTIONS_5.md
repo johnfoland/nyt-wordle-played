@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-06-19  
-**Total Games:** 1827
+**Last Updated:** 2026-06-20  
+**Total Games:** 1828
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1827:** DRAKE
 
 **Game #1826:** EMOJI
 
