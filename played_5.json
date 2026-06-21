@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-06-20",
-    "played_count": 1828,
+    "last_update": "2026-06-21",
+    "played_count": 1829,
     "played": {
+        "1828": "ALIBI",
         "1827": "DRAKE",
         "1826": "EMOJI",
         "1825": "ENTRY",
