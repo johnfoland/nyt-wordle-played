@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-06-21  
-**Total Games:** 1829
+**Last Updated:** 2026-06-22  
+**Total Games:** 1830
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1829:** OVATE
 
 **Game #1828:** ALIBI
 
