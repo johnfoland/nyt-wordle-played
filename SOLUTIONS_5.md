@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-06-24  
-**Total Games:** 1832
+**Last Updated:** 2026-06-25  
+**Total Games:** 1833
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1832:** UNITY
 
 **Game #1831:** QUEER
 
