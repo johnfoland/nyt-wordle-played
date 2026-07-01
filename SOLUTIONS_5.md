@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-06-29  
-**Total Games:** 1837
+**Last Updated:** 2026-06-30  
+**Total Games:** 1838
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1837:** PUPPY
 
 **Game #1836:** CRUDE
 
