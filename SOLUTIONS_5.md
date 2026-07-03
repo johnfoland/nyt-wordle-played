@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-07-02  
-**Total Games:** 1840
+**Last Updated:** 2026-07-03  
+**Total Games:** 1841
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1840:** BATON
 
 **Game #1839:** MAVEN
 
