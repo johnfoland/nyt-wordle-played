@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-07-01",
-    "played_count": 1839,
+    "last_update": "2026-07-02",
+    "played_count": 1840,
     "played": {
+        "1839": "MAVEN",
         "1838": "DEMUR",
         "1837": "PUPPY",
         "1836": "CRUDE",
