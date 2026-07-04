@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-07-03  
-**Total Games:** 1841
+**Last Updated:** 2026-07-04  
+**Total Games:** 1842
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1841:** PIZZA
 
 **Game #1840:** BATON
 
