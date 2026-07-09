@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-07-08  
-**Total Games:** 1846
+**Last Updated:** 2026-07-09  
+**Total Games:** 1847
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1846:** AMEND
 
 **Game #1845:** DEMON
 
