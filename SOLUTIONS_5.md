@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-07-11  
-**Total Games:** 1849
+**Last Updated:** 2026-07-12  
+**Total Games:** 1850
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1849:** CLACK
 
 **Game #1848:** AVIAN
 
