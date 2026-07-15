@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-07-14  
-**Total Games:** 1852
+**Last Updated:** 2026-07-15  
+**Total Games:** 1853
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1852:** PSHAW
 
 **Game #1851:** STEAK
 
