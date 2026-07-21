@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-07-19  
-**Total Games:** 1857
+**Last Updated:** 2026-07-20  
+**Total Games:** 1858
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1857:** DIVER
 
 **Game #1856:** CHURN
 
