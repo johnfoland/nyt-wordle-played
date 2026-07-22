@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-07-21  
-**Total Games:** 1859
+**Last Updated:** 2026-07-22  
+**Total Games:** 1860
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1859:** LORRY
 
 **Game #1858:** SHILL
 
