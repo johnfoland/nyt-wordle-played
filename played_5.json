@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-07-22",
-    "played_count": 1860,
+    "last_update": "2026-07-23",
+    "played_count": 1861,
     "played": {
+        "1860": "ORBIT",
         "1859": "LORRY",
         "1858": "SHILL",
         "1857": "DIVER",
