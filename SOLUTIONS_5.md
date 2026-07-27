@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-07-25  
-**Total Games:** 1863
+**Last Updated:** 2026-07-26  
+**Total Games:** 1864
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1863:** GRAPE
 
 **Game #1862:** ALOHA
 

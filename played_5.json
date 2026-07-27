@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-07-25",
-    "played_count": 1863,
+    "last_update": "2026-07-26",
+    "played_count": 1864,
     "played": {
+        "1863": "GRAPE",
         "1862": "ALOHA",
         "1861": "PUTTY",
         "1860": "ORBIT",
