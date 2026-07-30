@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-07-28  
-**Total Games:** 1866
+**Last Updated:** 2026-07-29  
+**Total Games:** 1867
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1866:** VALVE
 
 **Game #1865:** SONAR
 
