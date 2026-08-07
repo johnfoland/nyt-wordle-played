@@ -1,8 +1,10 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-08-05",
-    "played_count": 1874,
+    "last_update": "2026-08-07",
+    "played_count": 1876,
     "played": {
+        "1875": "FEIGN",
+        "1874": "GRIPE",
         "1873": "POSIT",
         "1872": "MOTIF",
         "1871": "REPLY",
