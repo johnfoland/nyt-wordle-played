@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-08-11  
-**Total Games:** 1880
+**Last Updated:** 2026-08-12  
+**Total Games:** 1881
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1880:** WIMPY
 
 **Game #1879:** FENCE
 
