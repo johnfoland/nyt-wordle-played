@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-08-12",
-    "played_count": 1881,
+    "last_update": "2026-08-13",
+    "played_count": 1882,
     "played": {
+        "1881": "CRASH",
         "1880": "WIMPY",
         "1879": "FENCE",
         "1878": "SNIPE",
