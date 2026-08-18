@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-08-16  
-**Total Games:** 1885
+**Last Updated:** 2026-08-17  
+**Total Games:** 1886
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1885:** TRIBE
 
 **Game #1884:** ASPIC
 
