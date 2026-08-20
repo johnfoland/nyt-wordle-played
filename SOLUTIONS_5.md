@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-08-19  
-**Total Games:** 1888
+**Last Updated:** 2026-08-20  
+**Total Games:** 1889
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1888:** MURKY
 
 **Game #1887:** GRILL
 
