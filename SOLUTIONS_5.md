@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-08-26  
-**Total Games:** 1895
+**Last Updated:** 2026-08-27  
+**Total Games:** 1896
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1895:** UNCUT
 
 **Game #1894:** CAPON
 
