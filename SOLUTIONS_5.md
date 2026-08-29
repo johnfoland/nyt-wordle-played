@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-08-28  
-**Total Games:** 1897
+**Last Updated:** 2026-08-29  
+**Total Games:** 1898
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1897:** BLOOD
 
 **Game #1896:** TWEEN
 
