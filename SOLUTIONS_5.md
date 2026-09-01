@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-08-31  
-**Total Games:** 1900
+**Last Updated:** 2026-09-01  
+**Total Games:** 1901
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1900:** REMIX
 
 **Game #1899:** MOUND
 
