@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-08-31",
-    "played_count": 1900,
+    "last_update": "2026-09-01",
+    "played_count": 1901,
     "played": {
+        "1900": "REMIX",
         "1899": "MOUND",
         "1898": "INTEL",
         "1897": "BLOOD",
