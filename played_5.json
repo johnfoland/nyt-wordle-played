@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-09-01",
-    "played_count": 1901,
+    "last_update": "2026-09-02",
+    "played_count": 1902,
     "played": {
+        "1901": "RULER",
         "1900": "REMIX",
         "1899": "MOUND",
         "1898": "INTEL",
