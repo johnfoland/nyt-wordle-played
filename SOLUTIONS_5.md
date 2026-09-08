@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-09-06  
-**Total Games:** 1906
+**Last Updated:** 2026-09-07  
+**Total Games:** 1907
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1906:** BLIND
 
 **Game #1905:** BEIGE
 

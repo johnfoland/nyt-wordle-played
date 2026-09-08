@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-09-06",
-    "played_count": 1906,
+    "last_update": "2026-09-07",
+    "played_count": 1907,
     "played": {
+        "1906": "BLIND",
         "1905": "BEIGE",
         "1904": "SOUPY",
         "1903": "WAGER",
