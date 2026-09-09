@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-09-07  
-**Total Games:** 1907
+**Last Updated:** 2026-09-08  
+**Total Games:** 1908
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1907:** LIVEN
 
 **Game #1906:** BLIND
 
