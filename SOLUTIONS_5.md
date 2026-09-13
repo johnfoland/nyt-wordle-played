@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-09-11  
-**Total Games:** 1911
+**Last Updated:** 2026-09-12  
+**Total Games:** 1912
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1911:** NIFTY
 
 **Game #1910:** ASTER
 
