@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-09-13  
-**Total Games:** 1913
+**Last Updated:** 2026-09-14  
+**Total Games:** 1914
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1913:** RINSE
 
 **Game #1912:** FOCUS
 
