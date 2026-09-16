@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-09-15  
-**Total Games:** 1915
+**Last Updated:** 2026-09-16  
+**Total Games:** 1916
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1915:** WISPY
 
 **Game #1914:** DEALT
 
