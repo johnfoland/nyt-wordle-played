@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-09-26",
-    "played_count": 1926,
+    "last_update": "2026-09-27",
+    "played_count": 1927,
     "played": {
+        "1926": "SLOOP",
         "1925": "ELEGY",
         "1924": "COPSE",
         "1923": "MESSY",
