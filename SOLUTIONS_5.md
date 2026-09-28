@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-09-27  
-**Total Games:** 1927
+**Last Updated:** 2026-09-28  
+**Total Games:** 1928
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1927:** TRUNK
 
 **Game #1926:** SLOOP
 
