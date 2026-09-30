@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-09-29  
-**Total Games:** 1929
+**Last Updated:** 2026-09-30  
+**Total Games:** 1930
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1929:** RIVER
 
 **Game #1928:** SCUBA
 
