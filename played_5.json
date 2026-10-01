@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-09-29",
-    "played_count": 1929,
+    "last_update": "2026-09-30",
+    "played_count": 1930,
     "played": {
+        "1929": "RIVER",
         "1928": "SCUBA",
         "1927": "TRUNK",
         "1926": "SLOOP",
