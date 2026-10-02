@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-09-30  
-**Total Games:** 1930
+**Last Updated:** 2026-10-01  
+**Total Games:** 1931
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1930:** RITZY
 
 **Game #1929:** RIVER
 
