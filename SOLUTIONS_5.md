@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-10-03  
-**Total Games:** 1933
+**Last Updated:** 2026-10-04  
+**Total Games:** 1934
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1933:** SHACK
 
 **Game #1932:** PEEVE
 
