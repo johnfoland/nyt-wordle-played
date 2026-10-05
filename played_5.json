@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-10-04",
-    "played_count": 1934,
+    "last_update": "2026-10-05",
+    "played_count": 1935,
     "played": {
+        "1934": "MOCHA",
         "1933": "SHACK",
         "1932": "PEEVE",
         "1931": "USURY",
