@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-10-09  
-**Total Games:** 1939
+**Last Updated:** 2026-10-10  
+**Total Games:** 1940
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1939:** BUMPY
 
 **Game #1938:** MAJOR
 
