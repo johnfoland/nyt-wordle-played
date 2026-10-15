@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-10-14  
-**Total Games:** 1944
+**Last Updated:** 2026-10-15  
+**Total Games:** 1945
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1944:** DUNCE
 
 **Game #1943:** PSYCH
 
