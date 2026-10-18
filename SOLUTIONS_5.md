@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-10-16  
-**Total Games:** 1946
+**Last Updated:** 2026-10-17  
+**Total Games:** 1947
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1946:** GAFFE
 
 **Game #1945:** SHADY
 
