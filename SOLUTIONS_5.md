@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-10-17  
-**Total Games:** 1947
+**Last Updated:** 2026-10-18  
+**Total Games:** 1948
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1947:** ADORN
 
 **Game #1946:** GAFFE
 
