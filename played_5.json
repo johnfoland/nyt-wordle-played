@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-10-20",
-    "played_count": 1950,
+    "last_update": "2026-10-21",
+    "played_count": 1951,
     "played": {
+        "1950": "PENNY",
         "1949": "WREST",
         "1948": "STINK",
         "1947": "ADORN",
