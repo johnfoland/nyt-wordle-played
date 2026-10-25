@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-10-23  
-**Total Games:** 1953
+**Last Updated:** 2026-10-24  
+**Total Games:** 1954
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1953:** HOLEY
 
 **Game #1952:** TRILL
 
