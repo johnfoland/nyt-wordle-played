@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-10-24",
-    "played_count": 1954,
+    "last_update": "2026-10-25",
+    "played_count": 1955,
     "played": {
+        "1954": "DRESS",
         "1953": "HOLEY",
         "1952": "TRILL",
         "1951": "RESET",
