@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-10-25  
-**Total Games:** 1955
+**Last Updated:** 2026-10-26  
+**Total Games:** 1956
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1955:** GEEKY
 
 **Game #1954:** DRESS
 
