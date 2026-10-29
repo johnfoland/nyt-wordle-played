@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-10-27  
-**Total Games:** 1957
+**Last Updated:** 2026-10-28  
+**Total Games:** 1958
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1957:** GRIST
 
 **Game #1956:** BINGO
 
