@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-10-29  
-**Total Games:** 1959
+**Last Updated:** 2026-10-30  
+**Total Games:** 1960
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1959:** SLIDE
 
 **Game #1958:** MOTOR
 
