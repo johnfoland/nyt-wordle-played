@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-11-01  
-**Total Games:** 1962
+**Last Updated:** 2026-11-02  
+**Total Games:** 1963
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1962:** SCOOT
 
 **Game #1961:** VIPER
 
