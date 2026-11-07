@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-11-05  
-**Total Games:** 1966
+**Last Updated:** 2026-11-06  
+**Total Games:** 1967
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1966:** DRECK
 
 **Game #1965:** PARCH
 
