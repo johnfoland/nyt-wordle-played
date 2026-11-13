@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-11-12  
-**Total Games:** 1973
+**Last Updated:** 2026-11-13  
+**Total Games:** 1974
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1973:** MOXIE
 
 **Game #1972:** KARAT
 
