@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-11-15  
-**Total Games:** 1976
+**Last Updated:** 2026-11-16  
+**Total Games:** 1977
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1976:** DRAWL
 
 **Game #1975:** SNARK
 
