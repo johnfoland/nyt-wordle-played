@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-11-17",
-    "played_count": 1978,
+    "last_update": "2026-11-18",
+    "played_count": 1979,
     "played": {
+        "1978": "BLURT",
         "1977": "ROAST",
         "1976": "DRAWL",
         "1975": "SNARK",
