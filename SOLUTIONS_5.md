@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-11-21  
-**Total Games:** 1982
+**Last Updated:** 2026-11-22  
+**Total Games:** 1983
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1982:** UPEND
 
 **Game #1981:** STENT
 
