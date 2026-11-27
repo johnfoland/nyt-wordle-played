@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
-**Last Updated:** 2026-11-25  
-**Total Games:** 1986
+**Last Updated:** 2026-11-27  
+**Total Games:** 1987
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1986:** TENSE
 
 **Game #1985:** SPICY
 
