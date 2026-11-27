@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
+      actions: write
       contents: write
       pull-requests: write
 
@@ -17,12 +18,13 @@ jobs:
       DELAY_HOURS: "13"
 
     steps:
-      - name: Auto-merge and release
+      - name: Auto-merge
         uses: actions/github-script@v8
         with:
           script: |
             const delayHours = parseFloat(process.env.DELAY_HOURS || "24");
             const now = new Date();
+            let mergedCount = 0;
 
             const { data: prs } = await github.rest.pulls.list({
               owner: context.repo.owner,
@@ -73,35 +75,23 @@ jobs:
                 merge_method: "merge",
               });
 
-              const mergeSha = mergeResult.data.sha;
-              core.info(`PR #${pr.number} merged as commit ${mergeSha}.`);
+              core.info(`PR #${pr.number} merged as commit ${mergeResult.data.sha}.`);
+              mergedCount++;
+            }
 
-              const tagName = gameNumber;
-              const releaseName = `NYT Wordle Game #${gameNumber}`;
-              const releaseBody = `Result for game #${gameNumber}.\n\nMerged from PR #${pr.number}.`;
-
-              core.info(`Creating release '${releaseName}' with tag '${tagName}'...`);
-
+            // Merges made with GITHUB_TOKEN don't fire pull_request events, so
+            // ask the release workflow to run. If this call fails, its hourly
+            // run creates the release instead.
+            if (mergedCount > 0) {
               try {
-                await github.rest.repos.createRelease({
+                await github.rest.actions.createWorkflowDispatch({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
-                  tag_name: tagName,
-                  target_commitish: mergeSha,
-                  name: releaseName,
-                  body: releaseBody,
-                  draft: false,
-                  prerelease: false,
+                  workflow_id: "release.yaml",
+                  ref: "master",
                 });
-                core.info(`Release for game #${gameNumber} created.`);
+                core.info("Requested the release workflow.");
               } catch (error) {
-                if (error.status === 422) {
-                  // 422 often means tag/release already exists; log and continue
-                  core.warning(
-                    `Could not create release for game #${gameNumber}: ${error.message}`
-                  );
-                } else {
-                  throw error;
-                }
+                core.warning(`Could not request the release workflow: ${error.message}`);
               }
             }
