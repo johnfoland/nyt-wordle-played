@@ -1,0 +1,104 @@
+name: Release merged game result PRs
+
+# Creates the release for every recently merged game PR that does not have one
+# yet. It runs when a PR is merged by hand, when the auto-merge workflow asks
+# for it (merges made with GITHUB_TOKEN do not fire pull_request events), and
+# hourly as a backstop for runs that hit transient GitHub API errors.
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [master]
+  schedule:
+    - cron: "20 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: >-
+      github.event_name != 'pull_request' ||
+      (github.event.pull_request.merged &&
+       startsWith(github.event.pull_request.head.ref, 'game-'))
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: read
+
+    steps:
+      - name: Create missing releases
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+
+            const { data: prs } = await github.rest.pulls.list({
+              owner,
+              repo,
+              state: "closed",
+              base: "master",
+              sort: "updated",
+              direction: "desc",
+              per_page: 30,
+            });
+
+            const merged = prs
+              .filter((pr) => pr.merged_at)
+              .map((pr) => ({ pr, match: pr.head.ref.match(/^game-(\d+)_/) }))
+              .filter(({ match }) => match)
+              .map(({ pr, match }) => ({ pr, gameNumber: Number(match[1]) }))
+              // Oldest game first, so the newest release ends up as "Latest".
+              .sort((a, b) => a.gameNumber - b.gameNumber);
+
+            let created = 0;
+            let latestGame = 0;
+            try {
+              const { data: latest } = await github.rest.repos.getLatestRelease({ owner, repo });
+              latestGame = Number(latest.tag_name) || 0;
+            } catch (error) {
+              if (error.status !== 404) throw error;
+            }
+
+            for (const { pr, gameNumber } of merged) {
+              const tagName = String(gameNumber);
+
+              try {
+                await github.rest.repos.getReleaseByTag({ owner, repo, tag: tagName });
+                continue; // already released
+              } catch (error) {
+                if (error.status !== 404) throw error;
+              }
+
+              const makeLatest = gameNumber > latestGame;
+              core.info(`Creating release for game #${gameNumber} from PR #${pr.number} (latest: ${makeLatest})...`);
+
+              try {
+                await github.rest.repos.createRelease({
+                  owner,
+                  repo,
+                  tag_name: tagName,
+                  target_commitish: pr.merge_commit_sha,
+                  name: `NYT Wordle Game #${gameNumber}`,
+                  body: `Result for game #${gameNumber}.\n\nMerged from PR #${pr.number}.`,
+                  draft: false,
+                  prerelease: false,
+                  make_latest: String(makeLatest),
+                });
+              } catch (error) {
+                if (error.status === 422) {
+                  core.warning(`Could not create release for game #${gameNumber}: ${error.message}`);
+                  continue;
+                }
+                throw error;
+              }
+
+              if (makeLatest) latestGame = gameNumber;
+              created++;
+              core.info(`Release for game #${gameNumber} created.`);
+            }
+
+            core.info(`Checked ${merged.length} merged game PRs; created ${created} release(s).`);
