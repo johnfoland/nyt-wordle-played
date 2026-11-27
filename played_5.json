@@ -1,8 +1,9 @@
 {
     "info": "Played NYT Wordle solutions",
-    "last_update": "2026-11-25",
-    "played_count": 1986,
+    "last_update": "2026-11-27",
+    "played_count": 1987,
     "played": {
+        "1986": "TENSE",
         "1985": "SPICY",
         "1984": "SNEER",
         "1983": "FILTH",
