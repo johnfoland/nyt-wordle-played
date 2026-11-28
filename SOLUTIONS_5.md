@@ -1,13 +1,15 @@
 # New York Times Wordle Solutions (5-Letter Variant)
 
 **Last Updated:** 2026-11-27  
-**Total Games:** 1987
+**Total Games:** 1988
 
 This file contains all historical solutions for the 5-letter NYT Wordle variant, listed in reverse chronological order (newest first).
 
 ---
 
 ## Solutions
+
+**Game #1987:** SHEAF
 
 **Game #1986:** TENSE
 
